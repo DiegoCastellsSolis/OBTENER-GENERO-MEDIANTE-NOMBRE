@@ -34,7 +34,7 @@ La API de genderize.io tiene un límite de 100 solicitudes gratuitas por día.
 La API no siempre es precisa, especialmente para nombres poco comunes.
 
 Requisitos:
-Python 3
+Python3
 requests
 pandas
 
