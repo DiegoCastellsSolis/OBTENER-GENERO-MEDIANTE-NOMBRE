@@ -20,25 +20,25 @@ y posteriormente generar un update con los valores de "df" a tu base de datos
 
 
 en limpio se podria decir:
-Funcionamiento:
 
+Funcionamiento:
 El script define una lista de nombres que no tienen un género claro ("lista_nombres_a").
 Recorre la lista y para cada nombre:
 Realiza una solicitud a la API de genderize.io para obtener el género del nombre.
 Si la solicitud es exitosa, guarda el nombre y el género en una lista.
 Crea un DataFrame de Pandas con las listas de nombres y géneros.
 Puedes usar el DataFrame para actualizar tu base de datos con los géneros de los nombres.
-Limitaciones:
 
+Limitaciones:
 La API de genderize.io tiene un límite de 100 solicitudes gratuitas por día.
 La API no siempre es precisa, especialmente para nombres poco comunes.
-Requisitos:
 
+Requisitos:
 Python 3
 requests
 pandas
 
-Mejoras
+Mejoras:
 Puedes ampliar la lista de nombres para incluir más nombres que no tienen un género claro.
 Puedes usar una API diferente para obtener el género del nombre.
 Puedes mejorar la precisión del script utilizando un algoritmo de aprendizaje automático.
